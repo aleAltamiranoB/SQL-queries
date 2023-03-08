@@ -12,3 +12,7 @@ GROUP BY GROUPING SETS
 	() --El vacio hace referencia a no combinar ninguna columna, por ende el total general
 )
 ORDER BY c.MonthNumberOfYear,c.DayNumberOfMonth
+
+--In the last three exercises, we walked through the ROLLUP, CUBE, and GROUPING SETS grouping operators. 
+--Of these three, GROUPING SETS is the most customizable, allowing you to build out exactly the levels of aggregation you want. 
+--GROUPING SETS makes no assumptions about hierarchy (unlike ROLLUP) and can remain manageable with a good number of columns (unlike CUBE).
